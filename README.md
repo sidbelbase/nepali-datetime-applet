@@ -4,7 +4,7 @@ A simple taskbar applet to show realtime datetime along with nepali date for bud
 
 ## Look At Present
 
-<img src="presentlook.png" width="100%" />
+<img src="presentlook.png"/>
 
 ### TODOS:
 
