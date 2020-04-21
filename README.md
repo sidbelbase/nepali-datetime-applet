@@ -1,19 +1,16 @@
-# Nepali Date Applet
+## Nepali Friendly Datetime Applet
 
-A simple applet for budgie desktops to show nepali date on the top of taskbar
-
-## TODOS:
-
-- Make it work like clock
-- Make it GUI with gtk
-- Build it with meson
-- Make it work with https://www.foragoodstrftime.com for nepali date specifiers
-- Translate the site on transifex
-
-## Final Look
-
-Wednesday : 21.29.54 : November 13 : Karthik 28
+A simple taskbar applet to show realtime datetime along with nepali date for budgie desktops.
 
 ## Look At Present
 
-![How this will look on bar with nepali date](Sample.png)
+<img src="presentlook.png" width="100%" />
+
+### TODOS:
+
+01. [x] Make it self updating
+02. [ ] Build it with meson
+03. [ ] Build it with GTK
+04. [ ] Add nepali date specifiers like strftime
+05. [ ] Support for custom nepali date specifiers
+06. [ ] Make flask app out of this

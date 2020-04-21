@@ -5,5 +5,4 @@ from time import sleep
 
 def english_date():
 	now = datetime.now()
-	print("\r", now.strftime('%H.%M.%S : %A, %B %e'), end="")
-	sleep(1)
+	return now.strftime('%H.%M.%S : %B %e, %A')

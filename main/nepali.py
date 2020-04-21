@@ -249,8 +249,8 @@ def convert_to_nepali(yy, mm, dd):
 
         total_english_days -= 1
 
-    date_string = str(get_nepali_month(m)) + ' ' + \
-        str(total_nepali_days) + ', ' + str(y)
+    #date_string = str(get_nepali_month(m)) + ' ' + str(total_nepali_days) + ', ' + str(y)
+    date_string = str(get_nepali_month(m)) + ' ' + str(total_nepali_days)
 
     return date_string
 
@@ -270,8 +270,8 @@ def is_date_in_range(year, month, day):
 
     return True
 
+#? FORMAT: Baisakh 9
+
 def nepali_date():
   now = datetime.now()
-  nepalidate= convert_to_nepali(now.year, now.month, now.day)
-  print("\r", nepalidate, end="")
-  sleep(1)
+  return convert_to_nepali(now.year, now.month, now.day)
