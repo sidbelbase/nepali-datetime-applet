@@ -1,5 +1,6 @@
 from datetime import datetime
 import numpy as np
+from time import sleep
 
 # ? List of Nepali years followed by the number of days each month.
 
@@ -268,3 +269,9 @@ def is_date_in_range(year, month, day):
         return False
 
     return True
+
+def nepali_date():
+  now = datetime.now()
+  nepalidate= convert_to_nepali(now.year, now.month, now.day)
+  print("\r", nepalidate, end="")
+  sleep(1)

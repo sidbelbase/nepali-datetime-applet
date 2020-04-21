@@ -1,4 +1,8 @@
-from nepali import convert_to_nepali
-from english import colonize_them 
+from nepali import nepali_date
+from english import english_date
 
-print(convert_to_nepali(currenttime.year, currenttime.month, currenttime.day))
+#def merger():
+	#return print(f'{nepali_date()} : {english_date()}')
+
+while True:
+	nepali_date()
